@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#site-header {
+
+    /* Referenz für die plazieung sind damit die ränder des browserfensters */
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* background-color: rgba(45, 56, 119, 0.67); */
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: inline-block;
+    width: 100%;
+    padding-left: 3%;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400');
+
+#logo {
+    display: inline-block;
+}
+
+#sec2 img,
+#sec3 img,
+#sec img{
+    height: auto;
+}
+
+.gallery figure {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    margin-top: 3%; 
+    margin-bottom: 3%;
+    margin-right: 2%;
+}
+
+.gallery figure:hover {
+    transform: scale(1.03);
+}
+
+.gallery figcaption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.31);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3 ease-in;
+}
+
+.gallery figure:hover figcaption {
+    opacity: 1;
+}
+
+#logo img {
+    width: 3em;
+    height: auto;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+.points nav a {
+    margin: 20hv 42%;
+}
+
+.points nav a {
+    background-color: #D09028;
+
+    display: block;
+    width: 2.2em;
+    height: 4px;
+
+    margin-bottom: 2.5em;
+    /* border-radius:50%;
+    border:#394679 2px solid; */
+    margin-top: 1.4em;
+    transition: all 0.1s ease-in-out;
+}
+
+.red {
+    background-color: #D09028;
+
+    display: block;
+    width: 5em;
+    height: 4px;
+
+    margin-bottom: 2em;
+}
+
+.points nav {
+    margin-top: 15em;
+}
+
+.points nav .active {
+    width: 3.2em;
+}
+
+.points nav a:hover {
+    width: 3.2em;
+
+}
+
+
+section {
+    border: rgb(24, 32, 32) 0.01em solid;
+    min-height: 100vh;
+}
+
+.content {
+    margin-top: 6em;
+    margin-left: 13%;
+    margin-right: 10%;
+    margin-bottom: 4em;
+}
+
+/* 
+#sec1 {
+    
+    background-image:url(../img/skyline.svg);
+    background-repeat: repeat;   
+    background-position: center;
+    background-size: cover
+} 
+*/
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #D09028;
+    margin-top: 16rem;
+    font-size: 5em;
+    margin-bottom: 3rem;
+    letter-spacing: 0.09em;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #D09028;
+    margin-top: 2rem;
+    font-size: 3.5em;
+    margin-bottom: 3rem;
+    letter-spacing: 0.09em;
+
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #D09028;
+    margin-top: 2rem;
+    font-size: 1.5em;
+    margin-bottom: 3rem;
+}
+
+/* hintergrund */
+#sec1,
+#sec2,
+#sec3,
+#sec4,
+#sec5,
+footer {
+    background-color: rgb(24, 25, 32);
+}
+
+
+
+.content {
+    margin: 10em 20 5em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+article {
+    display: inline-block
+}
+
+footer {
+    color: #D09028;
+}
